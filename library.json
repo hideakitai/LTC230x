@@ -1,0 +1,19 @@
+{
+	"name": "LTC230x",
+	"keywords": "ltc2301,ltc2305,ltc2309,adc,i2c",
+	"description": "Arduino library for LTC230x (LTC2301, LTC2305, and LTC2309) 12-Bit ADCs with I2C Interface",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hideakitai/LTC230x.git"
+	},
+	"authors": {
+		"name": "Hideaki Tai",
+		"url": "https://github.com/hideakitai",
+		"maintainer": true
+	},
+	"version": "0.1.0",
+	"license": "MIT",
+	"frameworks": "arduino",
+	"platforms": "*",
+	"dependencies": {}
+}
