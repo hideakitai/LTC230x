@@ -19,7 +19,7 @@ enum Address : uint8_t
     AD1_FLOAT_AD0_LOW = 0x19,
     AD1_HIGH_AD0_LOW = 0x1A,
     AD1_HIGH_AD0_FLOAT = 0x1B,
-    AD1_HIGH_AD0_HIGH = 0x14
+    AD1_HIGH_AD0_HIGH = 0x28
 };
 
 constexpr uint8_t GLOBAL = 0x6B;
