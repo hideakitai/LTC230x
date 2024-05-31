@@ -183,7 +183,7 @@ private:
 
         this->wire->requestFrom(addr, 2);
         data = this->wire->read() << 8;
-
+        data |= this->wire->read();
 
         return 0;
     }
